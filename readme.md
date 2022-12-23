@@ -1,6 +1,6 @@
 <p align="center">
     <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
-    <h2 align="center">Rosé Pine for App</h2>
+    <h2 align="center">Rosé Pine for Tailwind CSS</h2>
 </p>
 
 <p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
@@ -13,33 +13,85 @@
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+1. Open your app that already have [tailwind installed](https://tailwindcss.com/docs/installation) & [editor correctly setup](https://tailwindcss.com/docs/editor-setup)
+
+2. Under `tailwind.config.*`, input the following code :
+
+```javascript
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        rosePine: {
+          base: "#191724",
+          surface: "#1f1d2e",
+          overlay: "#26233a",
+          muted: "#6e6a86",
+          subtle: "#908caa",
+          text: "#e0def4",
+          love: "#eb6f92",
+          gold: "#f6c177",
+          rose: "#ebbcba",
+          pine: "#31748f",
+          foam: "#9ccfd8",
+          iris: "#c4a7e7",
+          highlightLow: "#21202e",
+          highlightMed: "#403d52",
+          highlightHigh: "#524f67",
+        },
+        rosePineMoon: {
+          base: "#232136",
+          surface: "#2a273f",
+          overlay: "#393552",
+          muted: "#6e6a86",
+          subtle: "#908caa",
+          text: "#e0def4",
+          love: "#eb6f92",
+          gold: "#f6c177",
+          rose: "#ea9a97",
+          pine: "#3e8fb0",
+          foam: "#9ccfd8",
+          iris: "#c4a7e7",
+          highlightLow: "#2a283e",
+          highlightMed: "#44415a",
+          highlightHigh: "#56526e",
+        },
+        rosePineDawn: {
+          base: "#faf4ed",
+          surface: "#fffaf3",
+          overlay: "#f2e9e1",
+          muted: "#9893a5",
+          subtle: "#797593",
+          text: "#575279",
+          love: "#b4637a",
+          gold: "#ea9d34",
+          rose: "#d7827e",
+          pine: "#286983",
+          foam: "#56949f",
+          iris: "#907aa9",
+          highlightLow: "#f4ede8",
+          highlightMed: "#dfdad9",
+          highlightHigh: "#cecacd",
+        },
+      },
+    },
+  },
+  // (plugins, content, ...)
+};
+```
 
 ## Gallery
 
-![Rosé Pine with App](https://user-images.githubusercontent.com/1474821/166155319-06796439-95a7-4aea-910e-927c1f24518e.png)
+### Rose Pine
+![Demo rosePine](https://user-images.githubusercontent.com/113206761/209348212-f8acdd5c-e5ff-407b-895d-03ca557ef6a5.png)
+
+### Rose Pine Moon
+![Demo rosePineMoon](https://user-images.githubusercontent.com/113206761/209348043-e8b85de0-a368-481b-9c0a-13459cc8afe9.png)
+
+### Rose Pine Dawn
+![Demo rosePineDawn](https://user-images.githubusercontent.com/113206761/209348137-b3f2eab5-19dc-4a0c-b0f3-23cde4d9cb43.png)
+
 
 ## Thanks to
 
-- [You, it's you!](https://github.com/<username>)
-
-## Contributing
-
-> Prefer using [@rose-pine/build](https://github.com/rose-pine/build) when possible
-
-Modify `template.json` using Rosé Pine variables, then build variants:
-
-```sh
-npx @rose-pine/build@latest
-```
-
-## Style guide
-
-> Be sure to remove this section 😌
-
-- Lowercase meta files, eg. `readme.md`
-- Repo name should be the simplest version of the app name, eg. iterm instead of iTerm2
-- Format repo description as "Soho vibes for App"
-- Generate and upload social image via [Rosé Pine Images](https://rose-pine-images.vercel.app)
+- [Goyo Stach](https://github.com/GoyoStach)
