@@ -13,6 +13,34 @@
 
 ## Usage
 
+
+### Tailwind 4
+
+1. Open your app that already have [tailwind installed](https://tailwindcss.com/docs/installation/using-vite) & [editor correctly setup](https://tailwindcss.com/docs/editor-setup).
+
+2. Copy folder `rose-pine-tailwind-v4` to your project's stylesheet folder.
+
+3. Update your main stylesheet with one of the Rosé Pine variants:
+
+```css app.css
+@import "tailwindcss";
+
+@import "./rose-pine-tailwind-v4/rose-pine-moon.css";
+/* @import "./rose-pine-tailwind-v4/rose-pine-dawn.css"; */
+/* @import "./rose-pine-tailwind-v4/rose-pine-pine.css"; */
+```
+
+4. You can now use the Rosé Pine colours just like any other Tailwind colors:
+
+```html
+<div class="bg-rose-pine-base text-rose-pine-gold">
+    Pretty nice
+</div>
+```
+
+
+### Older Tailwind version
+
 1. Open your app that already have [tailwind installed](https://tailwindcss.com/docs/installation) & [editor correctly setup](https://tailwindcss.com/docs/editor-setup)
 
 2. Under `tailwind.config.*`, input the following code :
