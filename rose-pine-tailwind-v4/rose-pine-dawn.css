@@ -1,0 +1,17 @@
+@theme {
+    --color-rose-pine-base: hsl(32deg, 57%, 95%);
+    --color-rose-pine-surface: hsl(35deg, 100%, 98%);
+    --color-rose-pine-overlay: hsl(33deg, 43%, 91%);
+    --color-rose-pine-muted: hsl(257deg, 9%, 61%);
+    --color-rose-pine-subtle: hsl(248deg, 12%, 52%);
+    --color-rose-pine-text: hsl(248deg, 19%, 40%);
+    --color-rose-pine-love: hsl(343deg, 35%, 55%);
+    --color-rose-pine-gold: hsl(35deg, 81%, 56%);
+    --color-rose-pine-rose: hsl(3deg, 53%, 67%);
+    --color-rose-pine-pine: hsl(197deg, 53%, 34%);
+    --color-rose-pine-foam: hsl(189deg, 30%, 48%);
+    --color-rose-pine-iris: hsl(268deg, 21%, 57%);
+    --color-rose-pine-highlight-low: hsl(25deg, 35%, 93%);
+    --color-rose-pine-highlight-med: hsl(10deg, 9%, 86%);
+    --color-rose-pine-highlight-high: hsl(315deg, 4%, 80%);
+}
